@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Artículos</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+<body>
+    <h1>Artículos</h1>
+    <ul>
+        {% for articulo in articulos %}
+            <li><strong>{{ articulo.titulo }}</strong> - {{ articulo.contenido }}</li>
+        {% empty %}
+            <li>No hay artículos disponibles.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
