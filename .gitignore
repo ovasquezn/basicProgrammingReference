@@ -1,3 +1,15 @@
+#Generales
 /2check
 /node/node_modules
 .DS_Store
+__pycache__
+
+#Data Science Folders and Files
+artifacts/
+resumen_ventas_pais_mes/
+ventas_parquet
+transacciones.csv
+transactions.csv
+transactions_clean.csv
+etl_db.sqlite
+etl_pipeline.log
