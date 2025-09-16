@@ -13,3 +13,8 @@ transactions.csv
 transactions_clean.csv
 etl_db.sqlite
 etl_pipeline.log
+
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata

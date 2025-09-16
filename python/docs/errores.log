@@ -1,0 +1,5 @@
+2025-07-14 16:31:04,673 - ERROR - Error de conversión a float: could not convert string to float: 'f'
+2025-07-14 17:06:05,718 - ERROR - Error al convertir dato a entero: invalid literal for int() with base 10: 'abc'
+2025-07-14 17:06:33,174 - ERROR - Error al convertir dato a entero: invalid literal for int() with base 10: 'abc'
+2025-07-14 17:11:19,263 - ERROR - Error al convertir dato a entero: invalid literal for int() with base 10: 'abc'
+2025-07-14 17:11:34,483 - ERROR - Error al convertir dato a entero: invalid literal for int() with base 10: 'abc'
